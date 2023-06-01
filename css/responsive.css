@@ -1,0 +1,70 @@
+/* Añade una regla para ajustar el tamaño de fuente base en dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Hace que la barra de navegación sea responsive */
+@media only screen and (max-width: 600px) {
+  .main-nav-links {
+    display: none;
+  }
+
+  .nav-right {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-right .nav-link {
+    margin-top: 10px;
+  }
+}
+
+/* Hace que los formularios de cuenta sean responsive */
+@media only screen and (max-width: 600px) {
+  .account-forms-container {
+    flex-direction: column;
+  }
+
+  .account-form {
+    width: 100%;
+  }
+}
+
+/* Ajusta el tamaño de fuente en dispositivos móviles para evitar que el texto sea demasiado pequeño */
+@media only screen and (max-width: 600px) {
+  #user-profile {
+    font-size: 16px;
+  }
+}
+
+/* Ajusta la disposición de los elementos en dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  #user-profile .user-profile-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #user-profile .user-profile-box section {
+    margin-top: 10px;
+  }
+}
+
+/* Ajusta el tamaño de fuente en dispositivos móviles para evitar que el texto sea demasiado pequeño */
+@media only screen and (max-width: 600px) {
+  #stories-container {
+    font-size: 16px;
+  }
+}
+
+/* Ajusta el ancho de las listas de historias en dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  .stories-list {
+    width: 100%;
+  }
+}
+
+/* Añade reglas adicionales según sea necesario para lograr el diseño deseado en dispositivos móviles */
+
+
